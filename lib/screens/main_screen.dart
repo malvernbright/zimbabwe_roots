@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 import 'package:zimbabwe_roots/screens/art_cinema_architecture.dart';
+import 'package:zimbabwe_roots/screens/chronology.dart';
 import 'package:zimbabwe_roots/screens/gender_roles_marriage_family.dart';
 import 'package:zimbabwe_roots/screens/intro_screen.dart';
 import 'package:zimbabwe_roots/screens/leisure_dress_cuisine.dart';
@@ -72,8 +73,10 @@ class _MainScreenState extends State<MainScreen> {
         return const SocialCustomsAndLifestyle();
       case CustomMenuItems.musicAndDance:
         return const MusicAndDance();
+      case CustomMenuItems.chronology:
+        return const Chronology();
       default:
-        return const IntroScreen();
+        return const Chronology();
     }
   }
 }

@@ -28,6 +28,8 @@ class CustomMenuItems {
       icon: FontAwesomeIcons.peopleGroup);
   static const musicAndDance =
       CustomMenuItem(title: 'Music and Dance', icon: FontAwesomeIcons.music);
+  static const chronology =
+      CustomMenuItem(title: 'Chronology', icon: FontAwesomeIcons.listCheck);
 
   static const all = <CustomMenuItem>[
     intro,
@@ -37,6 +39,7 @@ class CustomMenuItems {
     leisureDressCuisine,
     genderRolesMarriageAndFamily,
     socialCustomsAndLifestyle,
-    musicAndDance
+    musicAndDance,
+    chronology,
   ];
 }

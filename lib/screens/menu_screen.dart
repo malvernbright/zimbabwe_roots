@@ -45,7 +45,7 @@ class MenuScreen extends StatelessWidget {
           leading: Icon(menuItem.icon),
           title: Text(
             menuItem.title,
-            style: TextStyle(color: Colors.white),
+            style: const TextStyle(color: Colors.white),
           ),
           onTap: () => onSelected!(menuItem),
         ),
